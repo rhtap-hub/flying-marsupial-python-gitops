@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: flying-marsupial-python-repository
+spec:
+  url: https://github.com/rhtap-hub/flying-marsupial-python
